@@ -93,6 +93,12 @@ git config core.autocrlf false
 git config --global core.autocrlf false
 ```
 
+# 2022-05-22 一次性add全部文件
+
+```git
+git add --all
+```
+
 
 
 
