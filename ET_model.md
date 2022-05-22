@@ -26,7 +26,6 @@ $$
 
 > $\Delta~(kPa~℃):~Slope~of~the~saturation~vapor~pressure~curve~at~the~measured~temperature$
 >
-> $$
 
 $E_w$是Priestley-Taylor（PT）方程，区域范围内的湿润表面的潮湿环境蒸发率（完全潮湿环境），即为
 $$
