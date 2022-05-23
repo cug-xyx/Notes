@@ -40,7 +40,7 @@ $$
 
 > $T_{ws}~(℃):~wet~surface~temperature$
 
-$T_{ws}$与面积范围无关，因此可以用Penman方程有效的小湿表面的Bowen比中获得$T_{ws}$即
+$T_{ws}$与面积范围无关，因此可以用Penman方程有效的小湿表面的Bowen比中获得$T_{ws}$，即
 $$
 \beta_p = \frac{R_n - G - E_p}{E_p}\approx\gamma\frac{T_{ws} - T_a}{e^*(T_{ws}) - e_a}\tag{1.6}
 $$
@@ -60,7 +60,7 @@ E^{max}_p = \frac{\Delta(T_{dry})}{\Delta(T_{dry})+\gamma}(R_n - G) +
 $$
 其中，$\Delta$、$e^*$在干燥环境空气温度$T_{dry}$下进行评估。对于绝热过程，后者可以估计为
 $$
-T_{dry} = T_wb + \frac{e^*(T_{wb})}{\gamma}\tag{1.8}
+T_{dry} = T_{wb} + \frac{e^*(T_{wb})}{\gamma}\tag{1.8}
 $$
 
 > $T_{wb}:~湿球温度$
