@@ -76,6 +76,35 @@
 
 > <img src="Figures/2022-5-24-2.png" alt="notes" width="500"/>
 
+# 2022-05-22 在绘图区外添加文本或线段注释
+
+```R
+# 区域注释
+annotation_custom(grob = linesGrob(gp=gpar(col="#e9d3ff",
+                                             lwd=8,
+                                             lineend="square")),
+                    xmin=0,xmax=100,
+                    ymin=-0.08,
+                    ymax=-0.08)
+# 文本注释
+annotation_custom(grob = textGrob(label = "Pericentromeric regions",
+                                    just = "top",
+                                    hjust=0.5),
+                    xmin=112.5,
+                    ymin=-0.2,
+                    xmax=112.5,
+                    ymax=-0.2)
+# 箭头注释
+annotation_custom(grob = segmentsGrob(gp=gpar(col="black",
+                                             lwd=2,
+                                             lineend="square"),
+                                        arrow = arrow()),
+                    xmin=112.5,
+                    ymin=0.125,
+                    xmax=112.5,
+                    ymax=-0.02)
+```
+
 
 
 
