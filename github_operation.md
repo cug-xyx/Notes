@@ -16,7 +16,7 @@
    git remote add origin https://github.com/xxx.git
    ```
 
-   > ![2022-05-21-2](Figures\2022-05-21-2.jpg)
+   > <img src="Figures/2022-05-21-2.jpg" alt="notes" width="500"/>
    >
    > **远程仓库**
 
