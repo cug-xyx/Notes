@@ -1,6 +1,6 @@
 [toc]
 
-# 2022-05-16 王小文
+# 2022-05-16
 
 > 实现了利用`geom_text`向`face_grid`中不同子图中插入不同label
 
@@ -33,3 +33,32 @@ long %>%
 > 效果展示
 >
 > <img src="Figures/2022-05-16.png" alt="notes" width="500"/>
+
+# 2022-05-28
+
+> 堆叠柱状图以及`geom_text`添加注释
+
+```R
+pacman::p_load(tidyverse, data.table)
+
+d <- data.table(num = c(1, 2, 3, 4), 
+                x = c('A', 'B', 'A', 'B'),
+                group = c('a', 'a', 'b', 'b'))
+
+lab <- d[, by = x, .(label = toString(sum(num)))]
+
+d %>% 
+  ggplot(aes(x = x, y =num)) + theme_classic() +
+  geom_bar(aes(fill = group), stat = 'identity') +
+  geom_text(data = lab, aes(x = x, y = as.numeric(label),
+                            label = label)) +
+  coord_flip() +
+  theme(
+    legend.position = 'top',
+    axis.text = element_text(color = 'black')
+  )
+```
+
+> 效果展示
+>
+> <img src="Figures/2022-5-28.jpg" alt="notes" width="500"/>
