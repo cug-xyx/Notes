@@ -62,3 +62,16 @@ d %>%
 > 效果展示
 >
 > <img src="Figures/2022-5-28.jpg" alt="notes" width="500"/>
+
+# 2022-06-02 根据列内容筛选列
+
+```R
+# Filter columns that are not all pass
+tibble(col_1 = rep('pass', 5), 
+       col_2 = rep(1, 5), 
+       col_3 = rep('pass', 5)) %>% 
+  select(
+    where(~ unique(.x) != 'pass')
+  )
+```
+
