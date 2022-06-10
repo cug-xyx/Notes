@@ -42,7 +42,7 @@ usethis::use_package('dplyr', type = 'Imports',
 ## 7. check上述文件，检查问题
 
 ```R
-devtools::
+devtools::check()
 ```
 
 
