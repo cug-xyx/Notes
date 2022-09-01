@@ -29,6 +29,8 @@
 
 5. 执行拉取操作
 
+   > 在此之前似乎需要**设置用户信息**（下方有）以及添加**ssh key**（网上随便搜索”github ssh key“）
+   
    ```git
    # git pull <remote> <branch分支>
    git pull origin master

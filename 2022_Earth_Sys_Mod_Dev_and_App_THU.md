@@ -28,6 +28,8 @@
 
 ![image-20220822152903366](Figures/image-20220822152903366.png)
 
+
+
 ![image-20220822152952285](Figures/image-20220822152952285.png)
 
 ![image-20220822153123167](Figures/image-20220822153123167.png)
@@ -227,6 +229,76 @@ A2：
 
 # 2022-08-23 地球系统模式评估——周天军
 
+![image-20220823140402019](Figures/image-20220823140402019.png)
+
+![image-20220823140537926](Figures/image-20220823140537926.png)
+
+![image-20220823140708084](Figures/image-20220823140708084.png)
+
+**最优指纹法**
+
+![image-20220823141034997](Figures/image-20220823141034997.png)
+
+![image-20220823141241480](Figures/image-20220823141241480.png)
+
+气候敏感度
+
+![image-20220823141339599](Figures/image-20220823141339599.png)
+
+指纹法
+
+观测与气候模拟之间建立关系，来找到人类贡献的大小
+
+![image-20220823141524711](Figures/image-20220823141524711.png)
+
+![image-20220823141740534](Figures/image-20220823141740534.png)
+
+![image-20220823141829800](Figures/image-20220823141829800.png)
+
+数据的增多是科学的进步
+
+![image-20220823142223600](Figures/image-20220823142223600.png)
+
+![image-20220823142341127](Figures/image-20220823142341127.png)
+
+![image-20220823142751948](Figures/image-20220823142751948.png)
+
+![image-20220823142928780](Figures/image-20220823142928780.png)
+
+![image-20220823143102789](Figures/image-20220823143102789.png)
+
+![image-20220823143149603](Figures/image-20220823143149603.png)
+
+![image-20220823143853015](Figures/image-20220823143853015.png)
+
+“温升” --> 巴黎协定
+
+![image-20220823145126576](Figures/image-20220823145126576.png)
+
+Q：最优指纹法
+
+EOF、本身是个模拟与观测之间的多元回归
+
+信噪比问题
+
+针对长期预估的检测归因
+
+**2022-06热浪的检测归因？（事件的归因）**
+
+
+
+预估！=预测
+
+projection预估
+
+
+
+**涌现约束**
+
+历史模拟偏差与未来预估的关系
+
+
+
 # 2022-08-24 地球系统模式耦合器——刘利
 
 # 2022-08-24 安装和配置WRF培训——刘帅
@@ -235,9 +307,121 @@ A2：
 
 # 2022-08-25  Coupled Modeling System for Polar Sea Ice and Climate Prediction – Progress and Challenge——Jiping Liu
 
+![image-20220825142009380](Figures/image-20220825142009380.png)
+
+厄米共轭：共轭转置
+
+![image-20220825142342213](Figures/image-20220825142342213.png)
+
+![image-20220825142509928](Figures/image-20220825142509928.png)
+
+![image-20220825142627250](Figures/image-20220825142627250.png)
+
+![image-20220825143014959](Figures/image-20220825143014959.png)
+
+![image-20220825143056849](Figures/image-20220825143056849.png)
+
+![image-20220825143405865](Figures/image-20220825143405865.png)
+
+![image-20220825143640162](Figures/image-20220825143640162.png)
+
+![image-20220825144227971](Figures/image-20220825144227971.png)
+
+
+
 # 2022-08-25 超算竞赛优化培训——叶晋甫
 
 # 2022-08-25 Land surface modelling: linking ecosystems and climate——Iain Colin Prentice
+
+![image-20220825160857023](Figures/image-20220825160857023.png)
+
+![image-20220825160914166](Figures/image-20220825160914166.png)
+
+![image-20220825160931842](Figures/image-20220825160931842.png)
+
+![image-20220825161047769](Figures/image-20220825161047769.png)
+
+![image-20220825161544639](Figures/image-20220825161544639.png)
+
+![image-20220825161906054](Figures/image-20220825161906054.png)
+
+![image-20220825162226876](Figures/image-20220825162226876.png)
+
+FvCB模型，模拟光合作用
+
+![image-20220825162628091](Figures/image-20220825162628091.png)
+
+![image-20220825162909715](Figures/image-20220825162909715.png)
+
+![image-20220825163210396](Figures/image-20220825163210396.png)
+
+![image-20220825163310188](Figures/image-20220825163310188.png)
+
+**Leuning model**
+
+![image-20220825163433945](Figures/image-20220825163433945.png)
+
+![image-20220825163634672](Figures/image-20220825163634672.png)
+
+### 模拟时应注意的几点：
+
+![image-20220825163829392](Figures/image-20220825163829392.png)
+
+- CO2平衡
+- 全球生物群落的分布
+- 动态植被
+
+**动态全球植被模型**
+
+![image-20220825164107673](Figures/image-20220825164107673.png)
+
+![image-20220825164240244](Figures/image-20220825164240244.png)
+
+![image-20220825164312683](Figures/image-20220825164312683.png)
+
+![image-20220825164621368](Figures/image-20220825164621368.png)
+
+![image-20220825164857644](Figures/image-20220825164857644.png)
+
+![image-20220825165214779](Figures/image-20220825165214779.png)
+
+![image-20220825165511849](Figures/image-20220825165511849.png)
+
+![image-20220825165649786](Figures/image-20220825165649786.png)
+
+![image-20220825165842150](Figures/image-20220825165842150.png)
+
+![image-20220825165902268](Figures/image-20220825165902268.png)
+
+![image-20220825170203505](Figures/image-20220825170203505.png)
+
+![image-20220825170422198](Figures/image-20220825170422198.png)
+
+### Blueprint for a new land ecosystem model
+
+![image-20220825170512554](Figures/image-20220825170512554.png)
+
+![image-20220825170527334](Figures/image-20220825170527334.png)
+
+![image-20220825170616209](Figures/image-20220825170616209.png)
+
+![image-20220825170714899](Figures/image-20220825170714899.png)
+
+![image-20220825170750238](Figures/image-20220825170750238.png)
+
+![image-20220825171039665](Figures/image-20220825171039665.png)
+
+![image-20220825171230469](Figures/image-20220825171230469.png)
+
+![image-20220825171414953](Figures/image-20220825171414953.png)
+
+![image-20220825172716703](Figures/image-20220825172716703.png)
+
+![image-20220825172816633](Figures/image-20220825172816633.png)
+
+![image-20220825172953589](Figures/image-20220825172953589.png)
+
+
 
 # 2022-08-26 模式研发支撑系统与智能模式发展——黄小猛
 
