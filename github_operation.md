@@ -133,13 +133,80 @@ git add --all
    git remote set-url origin https://$<token>@github.91chi.fun/https://github.com/cug-xyx/hydroET.git
    ```
 
+
+# 2022-08-15 GITHUB国内拒绝访问问题
+
+>  仅介绍**Windows**解决办法，Linux同理
+
+1. 以管理员身份打开**cmd**（或**power shell**、**Windows Terminal终端**）
+
+2. 进入`hosts`文件路径，并打开`hosts`文件
+
+   ```
+   # Windows 常规路径
+   >> cd C:/Windows/System32/drivers/etc/ # 进入路径
+   >> notepad .\hosts                       # 打开文件
+   ```
+
+3. 将下方内容添加进`host`文件，并保存
+
+   ```
+   # update: 20220222
+   # Github Hosts
+   # domain: github.com
+   140.82.113.4 github.com
+   140.82.114.9 nodeload.github.com
+   140.82.112.5 api.github.com
+   140.82.112.10 codeload.github.com
+   185.199.108.133 raw.github.com
+   185.199.108.153 training.github.com
+   185.199.108.153 assets-cdn.github.com
+   185.199.108.153 documentcloud.github.com
+   140.82.114.17 help.github.com
    
+   # domain: githubstatus.com
+   185.199.108.153 githubstatus.com
+   
+   # domain: fastly.net
+   199.232.69.194 github.global.ssl.fastly.net
+   
+   # domain: githubusercontent.com
+   185.199.108.133 raw.githubusercontent.com
+   185.199.108.154 pkg-containers.githubusercontent.com
+   185.199.108.133 cloud.githubusercontent.com
+   185.199.108.133 gist.githubusercontent.com
+   185.199.108.133 marketplace-screenshots.githubusercontent.com
+   185.199.108.133 repository-images.githubusercontent.com
+   185.199.108.133 user-images.githubusercontent.com
+   185.199.108.133 desktop.githubusercontent.com
+   185.199.108.133 avatars.githubusercontent.com
+   185.199.108.133 avatars0.githubusercontent.com
+   185.199.108.133 avatars1.githubusercontent.com
+   185.199.108.133 avatars2.githubusercontent.com
+   185.199.108.133 avatars3.githubusercontent.com
+   185.199.108.133 avatars4.githubusercontent.com
+   185.199.108.133 avatars5.githubusercontent.com
+   185.199.108.133 avatars6.githubusercontent.com
+   185.199.108.133 avatars7.githubusercontent.com
+   185.199.108.133 avatars8.githubusercontent.com
+   # End of the section
+   ```
 
+4. 刷新DNS（**Windows**下）
 
+   ```
+   ipconfig /flushdns
+   ```
 
+至此解决问题
 
+## References
 
+[管理员权限打开hosts文件](http://www.xiaobaixitong.com/help/38560.html)
 
+[修改IP值内容](https://zhuanlan.zhihu.com/p/107334179)
+
+[Windows下刷新DNS](https://www.cnblogs.com/jiannanchun/p/15397235.html)
 
 
 
