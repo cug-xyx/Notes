@@ -151,7 +151,7 @@ git add --all
 3. 将下方内容添加进`host`文件，并保存
 
    ```
-   # update: 20220222
+   # update: 20220919
    # Github Hosts
    # domain: github.com
    140.82.113.4 github.com
